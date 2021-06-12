@@ -1,0 +1,69 @@
+.verify-form{
+    margin: 30px auto ;
+    text-align: center;
+    background-color:rgb(197, 187, 187);
+    width: 400px;
+    padding: 10px 0px !important;
+    border-radius:5px
+}
+.verify-form input{
+    display: block;
+    margin: 15px auto 0 auto;
+    padding:5px;
+    border:1px solid gray;
+    border-radius:5px;
+    width:300px
+}
+.error{
+    color:red;
+}
+.verify-form p{
+  margin-top: 13px;
+}
+.accountSetting{
+    color:rgb(46, 44, 189);
+    text-decoration: underline
+}
+.submitStyle{
+   font-weight: 600;
+   background-color:rgba(19, 122, 153, 0.733) ;
+   color:white
+}
+
+.or{
+  margin:20px auto;
+  text-align: center;
+  max-width: 370px;
+  position: relative;
+  color:white;
+  font-weight: 600
+}
+.or::before{
+    content:'';
+    display: block;
+    width: 150px;
+    height: 2px;
+    background:white;
+    position: absolute;
+    left:0;
+    top:50%
+}
+.or::after{
+    content:'';
+    display: block;
+    width: 150px;
+    height: 2px;
+    background:white;
+    position: absolute;
+    right:0;
+    top:50%
+}
+.forButton{
+    text-align: center;
+}
+.btnStyle{
+    background-color: rgb(179, 240, 237);
+    color:rgb(77, 78, 78);
+}
+
+
